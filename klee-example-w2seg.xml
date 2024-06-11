@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Klee</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <linkGrp type="alignment" subtype="deu-ita">
+      <link target="#deu-s1 #ita-s1"/>
+      <link target="#deu-s2 #ita-s2"/>
+      <link target="#deu-s3 #ita-s3"/>
+      <join xml:id="#deu-s4_s5" target="#deu-s4 #deu-s5"/>
+      <link target="#deu-s4_s5 #ita-s4"/>
+      <link target="#deu-s6 #ita-s5"/>
+      <link target="#deu-s7 #ita-s6"/>
+    </linkGrp>
+  </standOff>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Klee</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <p>Information about the source</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <sourceDoc>
+      <surfaceGrp xml:id="xxx">
+	<surface xml:id="srf1" facs="x.png">
+	  <zone xml:id="z1">
+	    <line xml:id="z1l1">
+	      <seg xml:id="z1l1t1">Umgekehrt </seg>
+	      <seg xml:id="z1l1t2">zum </seg>
+	      <seg xml:id="z1l1t3">Verlauf </seg>
+	      <seg xml:id="z1l1t4">dieser </seg>
+	      <seg xml:id="z1l1t5">kurzen </seg>
+	      <seg xml:id="z1l1t6">Dar-</seg>
+	    </line>
+	    <line xml:id="z1l2">
+	      <seg xml:id="z1l2t1">stellung </seg>
+	      <seg xml:id="z1l2t2">der </seg>
+	      <seg xml:id="z1l2t3">Linie </seg>
+	      <seg xml:id="z1l2t4">verläuft </seg>
+	      <seg xml:id="z1l2t5">die </seg>
+	      <seg xml:id="z1l2t6">darin </seg>
+	      <seg xml:id="z1l2t7">zugleich</seg>
+	    </line>
+	    <line xml:id="z1l3">
+	      <seg xml:id="z1l3t1">enthaltene </seg>
+	      <seg xml:id="z1l3t2">Darstellung </seg>
+	      <seg xml:id="z1l3t3">der </seg>
+	      <seg xml:id="z1l3t4">Fläche. </seg>
+	      <seg xml:id="z1l3t5">Als </seg>
+	      <seg xml:id="z1l3t6">die</seg>
+	    </line>
+	    <line xml:id="z1l4">
+	      <seg xml:id="z1l4t1">Linie </seg>
+	      <seg xml:id="z1l4t2">aktiv </seg>
+	      <seg xml:id="z1l4t3">war, </seg>
+	      <seg xml:id="z1l4t4">teilte </seg>
+	      <seg xml:id="z1l4t5">sie </seg>
+	      <seg xml:id="z1l4t6">in </seg>
+	      <seg xml:id="z1l4t7">imaginäre</seg>
+	    </line>
+	    <line xml:id="z1l5">
+	      <seg xml:id="z1l5t1">Flächen. </seg>
+	      <seg xml:id="z1l5t2">Dazwischen </seg>
+	      <seg xml:id="z1l5t3">drängte </seg>
+	      <seg xml:id="z1l5t4">sich </seg>
+	      <seg xml:id="z1l5t5">der </seg>
+	      <seg xml:id="z1l5t6">Flächen-</seg>
+	    </line>
+	    <line xml:id="z1l6">
+	      <seg xml:id="z1l6t1">charakter </seg>
+	      <seg xml:id="z1l6t2">hervor, </seg>
+	      <seg xml:id="z1l6t3">und </seg>
+	      <seg xml:id="z1l6t4">wurde </seg>
+	      <seg xml:id="z1l6t5">dann</seg>
+	    </line>
+	    <line xml:id="z1l7">
+	      <seg xml:id="z1l7t1">aktiv, </seg>
+	      <seg xml:id="z1l7t2">als </seg>
+	      <seg xml:id="z1l7t3">die </seg>
+	      <seg xml:id="z1l7t4">Linie </seg>
+	      <seg xml:id="z1l7t5">als </seg>
+	      <seg xml:id="z1l7t6">passiv </seg>
+	      <seg xml:id="z1l7t7">bezeichnet</seg>
+	    </line>
+	    <line xml:id="z1l8">
+	      <seg xml:id="z1l8t1">wurde.</seg>
+	    </line>
+	    <line xml:id="z1l9">
+	      <seg xml:id="z1l9t1">Die </seg>
+	      <seg xml:id="z1l9t1">Fläche </seg>
+	      <seg xml:id="z1l9t1">ist, </seg>
+	      <seg xml:id="z1l9t1">rein </seg>
+	      <seg xml:id="z1l9t1">gezüchtet, </seg>
+	      <seg xml:id="z1l9t1">das </seg>
+	      <seg xml:id="z1l9t1">ruhige</seg>
+	    </line>
+	    <line xml:id="z1l10">
+	      <seg xml:id="z1l10t1">Element. </seg>
+	      <seg xml:id="z1l10t2">Gerät </seg>
+	      <seg xml:id="z1l10t3">sie </seg>
+	      <seg xml:id="z1l10t4">aber </seg>
+	      <seg xml:id="z1l10t5">in </seg>
+	      <seg xml:id="z1l10t6">Bewegung,</seg>
+	    </line>
+	    <line xml:id="z1l11">
+	      <zone xml:id="fig_1">
+		<figure>
+		  <graphic url="xxx.png"/>
+		</figure>
+	      </zone>
+	    </line>
+	    <line xml:id="z1l12">
+	      <seg xml:id="z1l12t1">so </seg>
+	      <seg xml:id="z1l12t2">nähert </seg>
+	      <seg xml:id="z1l12t3">sie </seg>
+	      <seg xml:id="z1l12t4">sich </seg>
+	      <seg xml:id="z1l12t5">dem </seg>
+	      <seg xml:id="z1l12t6">Liniencharakter.</seg>
+	    </line>
+	    <line xml:id="z1l13">
+	      <seg xml:id="z1l13t1">Je </seg>
+	      <seg xml:id="z1l13t2">weiter </seg>
+	    </line>
+	    <line xml:id="z1l14">
+	      <zone xml:id="fig_2">
+		<figure>
+		  <graphic url="xxx.png"/>
+		</figure>
+	      </zone>
+	    </line>
+	    <line xml:id="z1l15">
+	      <seg xml:id="z1l15t6">die </seg>
+	      <seg xml:id="z1l15t1">Linie </seg>
+	      <seg xml:id="z1l15t2">AB </seg>
+	      <seg xml:id="z1l15t3">sich </seg>
+	      <seg xml:id="z1l15t4">fort-</seg>
+	    </line>
+	    <line xml:id="z1l16">
+	      <seg xml:id="z1l16t1">bewegt, </seg>
+	      <seg xml:id="z1l16t2">desto </seg>
+	      <seg xml:id="z1l16t3">dünner </seg>
+	      <seg xml:id="z1l16t4">wird </seg>
+	      <seg xml:id="z1l16t5">dadurch </seg>
+	      <seg xml:id="z1l16t6">die </seg>
+	      <seg xml:id="z1l16t7">beschriebene</seg>
+	    </line>
+	    <line xml:id="z1l17">
+	      <seg xml:id="z1l17t1">Fläche </seg>
+	      <seg xml:id="z1l17t2">im </seg>
+	      <seg xml:id="z1l17t3">Verhältnis </seg>
+	      <seg xml:id="z1l17t4">zu </seg>
+	      <seg xml:id="z1l17t5">ihrer </seg>
+	      <seg xml:id="z1l17t6">Länge,</seg>
+	    </line>
+	    <line xml:id="z1l18">
+	      <seg xml:id="z1l18t1">bis </seg>
+	      <seg xml:id="z1l18t2">man </seg>
+	      <seg xml:id="z1l18t3">schliesslich </seg>
+	      <seg xml:id="z1l18t4">von </seg>
+	      <seg xml:id="z1l18t5">einem </seg>
+	      <seg xml:id="z1l18t6">Zusammen-</seg>
+	    </line>
+	    <line xml:id="z1l19">
+	      <seg xml:id="z1l19t1">fallen </seg>
+	      <seg xml:id="z1l19t2">von </seg>
+	      <seg xml:id="z1l19t3">A </seg>
+	      <seg xml:id="z1l19t4">mit </seg>
+	      <seg xml:id="z1l19t5">B </seg>
+	      <seg xml:id="z1l19t6">spreche </seg>
+	      <seg xml:id="z1l19t7">kann, </seg>
+	      <seg xml:id="z1l19t8">womit</seg>
+	    </line>
+	    <line xml:id="z1l20">
+	      <seg xml:id="z1l20t1">wir </seg>
+	      <seg xml:id="z1l20t2">bei </seg>
+	      <seg xml:id="z1l20t3">der </seg>
+	      <seg xml:id="z1l20t4">aktiven </seg>
+	      <seg xml:id="z1l20t5">Linie </seg>
+	      <seg xml:id="z1l20t6">wieder </seg>
+	      <seg xml:id="z1l20t7">angelangt </seg>
+	      <seg xml:id="z1l20t8">sind.</seg>
+	    </line>
+	    <line xml:id="z1l21">
+	      <seg xml:id="z1l21t1">* </seg>
+	      <seg xml:id="z1l21t2">(Dieser </seg>
+	      <seg xml:id="z1l21t3">Abschnitt </seg>
+	      <seg xml:id="z1l21t4">ist </seg>
+	      <seg xml:id="z1l21t5">repetirt </seg>
+	      <seg xml:id="z1l21t6">auf </seg>
+	      <seg xml:id="z1l21t7">Seite </seg>
+	      <seg xml:id="z1l21t8">143-146)</seg>
+	    </line>
+	  </zone>
+	</surface>
+      </surfaceGrp>
+    </sourceDoc>
+    <text>
+      <body>
+        <div>
+          <ab>
+	    <s xml:id="deu-s1">
+	      <w xml:id="deu-s1w1" corresp="#z1l1t1">Umgekehrt</w>
+	      <w xml:id="deu-s1w2" corresp="#z1l1t2">zum</w>
+	      <w xml:id="deu-s1w3" corresp="#z1l1t3">Verlauf</w>
+	      <w xml:id="deu-s1w4" corresp="#z1l1t4">dieser</w>
+	      <w xml:id="deu-s1w5" corresp="#z1l1t5">kurzen</w>
+	      <w xml:id="deu-s1w6" corresp="#z1l1t6 #l2t1">Darstellung</w>
+	      <w xml:id="deu-s1w7" corresp="#z1l2t2">der</w>
+	      <w xml:id="deu-s1w8" corresp="#z1l2t3">Linie</w>
+	      <w xml:id="deu-s1w9" corresp="#z1l2t4">verläuft</w>
+	      <w xml:id="deu-s1w10" corresp="#z1l2t5">die</w>
+	      <w xml:id="deu-s1w11" corresp="#z1l2t6">darin</w>
+	      <w xml:id="deu-s1w12" corresp="#z1l2t7">zugleich</w>
+	      <w xml:id="deu-s1w13" corresp="#z1l3t1">enthaltene</w>
+	      <w xml:id="deu-s1w14" corresp="#z1l3t2">Darstellung</w>
+	      <w xml:id="deu-s1w15" corresp="#z1l3t3">der</w>
+	      <w xml:id="deu-s1w16" corresp="#z1l3t4">Fläche<pc>.</pc></w>
+	    </s>
+	    <s xml:id="deu-s2">
+	      <w xml:id="deu-s2w1" corresp="#z1l3t5">Als </w>
+	      <w xml:id="deu-s2w2" corresp="#z1l3t6">die </w>
+	      <w xml:id="deu-s2w3" corresp="#z1l4t1">Linie </w>
+	      <w xml:id="deu-s2w4" corresp="#z1l4t2">aktiv </w>
+	      <w xml:id="deu-s2w5" corresp="#z1l4t3">war<pc>,</pc> </w>
+	      <w xml:id="deu-s2w6" corresp="#z1l4t4">teilte </w>
+	      <w xml:id="deu-s2w7" corresp="#z1l4t5">sie </w>
+	      <w xml:id="deu-s2w8" corresp="#z1l4t6">in </w>
+	      <w xml:id="deu-s2w9" corresp="#z1l4t7">imaginäre </w>
+	      <w xml:id="deu-s2w10" corresp="#z1l5t1">Flächen<pc>.</pc> </w>
+	    </s>
+	    <s xml:id="deu-s3">
+	      <w xml:id="deu-s3w1" corresp="#z1l5t2">Dazwischen </w>
+	      <w xml:id="deu-s3w2" corresp="#z1l5t3">drängte </w>
+	      <w xml:id="deu-s3w3" corresp="#z1l5t4">sich </w>
+	      <w xml:id="deu-s3w4" corresp="#z1l5t5">der </w>
+	      <w xml:id="deu-s3w5" corresp="#z1l5t6 #z1l6t1">Flächencharakter</w>
+	      <w xml:id="deu-s3w6" corresp="#z1l6t2">hervor<pc>,</pc> </w>
+	      <w xml:id="deu-s3w7" corresp="#z1l6t3">und </w>
+	      <w xml:id="deu-s3w8" corresp="#z1l6t4">wurde </w>
+	      <w xml:id="deu-s3w9" corresp="#z1l6t5">dann </w>
+	      <w xml:id="deu-s3w10" corresp="#z1l7t1">aktiv, </w>
+	      <w xml:id="deu-s3w11" corresp="#z1l7t2">als </w>
+	      <w xml:id="deu-s3w12" corresp="#z1l7t3">die </w>
+	      <w xml:id="deu-s3w13" corresp="#z1l7t4">Linie </w>
+	      <w xml:id="deu-s3w14" corresp="#z1l7t5">als </w>
+	      <w xml:id="deu-s3w15" corresp="#z1l7t6">passiv </w>
+	      <w xml:id="deu-s3w16" corresp="#z1l7t7">bezeichnet </w>
+	      <w xml:id="deu-s3w17" corresp="#z1l8t1">wurde. </w>
+	    </s>
+	  </ab>
+	  <ab>
+	    <s xml:id="deu-s4">
+	      <w xml:id="deu-s4w1" corresp="#z1l9t1">Die </w>
+	      <w xml:id="deu-s4w2" corresp="#z1l9t2">Fläche </w>
+	      <w xml:id="deu-s4w3" corresp="#z1l9t3">ist, </w>
+	      <w xml:id="deu-s4w4" corresp="#z1l9t4">rein </w>
+	      <w xml:id="deu-s4w5" corresp="#z1l9t5">gezüchtet, </w>
+	      <w xml:id="deu-s4w6" corresp="#z1l9t6">das </w>
+	      <w xml:id="deu-s4w7" corresp="#z1l9t7">ruhige </w>
+	      <w xml:id="deu-s4w8" corresp="#z1l10t1">Element. </w>
+	    </s>
+	    <s xml:id="deu-s5">
+	      <w xml:id="deu-s5w1" corresp="#z1l10t2">Gerät </w>
+	      <w xml:id="deu-s5w2" corresp="#z1l10t3">sie </w>
+	      <w xml:id="deu-s5w3" corresp="#z1l10t4">aber </w>
+	      <w xml:id="deu-s5w4" corresp="#z1l10t5">in </w>
+	      <w xml:id="deu-s5w5" corresp="#z1l10t6">Bewegung, </w>
+	      <w xml:id="deu-s5w6" corresp="#z1l11t1">Ꚛ </w>
+	      <w xml:id="deu-s5w7" corresp="#z1l12t1">so </w>
+	      <w xml:id="deu-s5w8" corresp="#z1l12t2">nähert </w>
+	      <w xml:id="deu-s5w9" corresp="#z1l12t3">sie </w>
+	      <w xml:id="deu-s5w10" corresp="#z1l12t4">sich </w>
+	      <w xml:id="deu-s5w11" corresp="#z1l12t5">dem </w>
+	      <w xml:id="deu-s5w12" corresp="#z1l12t6">Liniencharakter. </w>
+	    </s>
+	    <s xml:id="deu-s6">
+	      <w xml:id="deu-s6w1" corresp="#z1l13t1">Je </w>
+	      <w xml:id="deu-s6w2" corresp="#z1l13t2">weiter </w>
+	      <w xml:id="deu-sw3" corresp="#z1l14t1">Ꚛ </w>
+	      <w xml:id="deu-s6w4" corresp="#z1l15t1">die </w>
+	      <w xml:id="deu-s6w5" corresp="#z1l15t2">Linie </w>
+	      <w xml:id="deu-s6w6" corresp="#z1l15t3">AB </w>
+	      <w xml:id="deu-s6w7" corresp="#z1l15t4">sich </w>
+	      <w xml:id="deu-s6w8" corresp="#z1l15t5 #z1l16t1">fortbewegt<pc>,</pc> </w>
+	      <w xml:id="deu-s6w9" corresp="#z1l16t2">desto </w>
+	      <w xml:id="deu-s6w10" corresp="#z1l16t3">dünner </w>
+	      <w xml:id="deu-s6w11" corresp="#z1l16t4">wird </w>
+	      <w xml:id="deu-s6w12" corresp="#z1l16t5">dadurch </w>
+	      <w xml:id="deu-s6w13" corresp="#z1l16t6">die </w>
+	      <w xml:id="deu-s6w14" corresp="#z1l16t7">beschriebene </w>
+	      <w xml:id="deu-s6w15" corresp="#z1l17t1">Fläche </w>
+	      <w xml:id="deu-s6w16" corresp="#z1l17t2">im </w>
+	      <w xml:id="deu-s6w17" corresp="#z1l17t3">Verhältnis </w>
+	      <w xml:id="deu-s6w18" corresp="#z1l17t4">zu </w>
+	      <w xml:id="deu-s6w" corresp="#z1l17t5">ihrer </w>
+	      <w xml:id="deu-s6w" corresp="#z1l17t6">Länge<pc>,</pc> </w>
+	      <w xml:id="deu-s6w19" corresp="#z1l18t1">bis </w>
+	      <w xml:id="deu-s6w20" corresp="#z1l18t2">man </w>
+	      <w xml:id="deu-s6w21" corresp="#z1l18t3">schliesslich </w>
+	      <w xml:id="deu-s6w22" corresp="#z1l18t4">von </w>
+	      <w xml:id="deu-s6w23" corresp="#z1l18t5">einem </w>
+	      <w xml:id="deu-s6w24" corresp="#z1l18t6 #z1l19t1">Zusammenfallen</w>
+	      <w xml:id="deu-s6w25" corresp="#z1l19t2">von </w>
+	      <w xml:id="deu-s6w26" corresp="#z1l19t3">A </w>
+	      <w xml:id="deu-s6w27" corresp="#z1l19t4">mit </w>
+	      <w xml:id="deu-s6w28" corresp="#z1l19t5">B </w>
+	      <w xml:id="deu-s6w29" corresp="#z1l19t6">sprechen </w>
+	      <w xml:id="deu-s6w30" corresp="#z1l19t7">kann<pc>,</pc> </w>
+	      <w xml:id="deu-s6w31" corresp="#z1l19t8">womit </w>
+	      <w xml:id="deu-s6w32" corresp="#z1l20t1">wir </w>
+	      <w xml:id="deu-s6w33" corresp="#z1l20t2">bei </w>
+	      <w xml:id="deu-s6w34" corresp="#z1l20t3">der </w>
+	      <w xml:id="deu-s6w35" corresp="#z1l20t4">aktiven </w>
+	      <w xml:id="deu-s6w36" corresp="#z1l20t5">Linie </w>
+	      <w xml:id="deu-s6w37" corresp="#z1l20t6">wieder </w>
+	      <w xml:id="deu-s6w38" corresp="#z1l20t7">angelangt </w>
+	      <w xml:id="deu-s6w39" corresp="#z1l20t8">sind<pc>.</pc> </w>
+	    </s>
+	  </ab>
+	  <ab>
+	    <s xml:id="deu-s7">
+	      <w xml:id="deu-s7w1" corresp="#z1l21t1">* </w>
+	      <w xml:id="deu-s7w2" corresp="#z1l21t2"><pc>(</pc>Dieser </w>
+	      <w xml:id="deu-s7w3" corresp="#z1l21t3">Abschnitt </w>
+	      <w xml:id="deu-s7w4" corresp="#z1l21t4">ist </w>
+	      <w xml:id="deu-s7w5" corresp="#z1l21t5">repetirt </w>
+	      <w xml:id="deu-s7w6" corresp="#z1l21t6">auf </w>
+	      <w xml:id="deu-s7w7" corresp="#z1l21t7">Seite </w>
+	      <w xml:id="deu-s7w8" corresp="#z1l21t8">143-146<pc>)</pc> </w>
+	    </s>
+	  </ab>
+	</div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+	<titleStmt>
+	  <title>Klee</title>
+	</titleStmt>
+	<publicationStmt>
+	  <p>Publication Information</p>
+	</publicationStmt>
+	<sourceDesc>
+	  <p>Information about the source</p>
+	</sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+	<div><pb xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+	<p>
+	  <s xml:id="ita-s1">
+	    In senso inverso al decorso di questa breve rappresentazione della linea procede la
+	    rappresentazione, che pure è contenuta in questa, del piano.
+	  </s>
+	  <s xml:id="ita-s2">
+	    Quando la linea era attiva divideva in superfici immaginarie.
+	  </s>
+	  <s xml:id="ita-s3">
+	    In mezzo ad esse si imponeva il carattere di superficie, diventando attivo
+	    quando la linea veniva detta passiva.
+	  </s>
+	</p>
+	<p>
+	  <s xml:id="ita-s4">
+	    La superficie, coltivata allo stato puro, è l’elemento calmo, ma se finisce per
+	    muoversi, ◌ si avvicina al carattere della linea.
+	  </s>
+	  <s xml:id="ita-s5">
+	    Quanto più la linea AB si muove in
+	    avanti, tanto più in questo modo diventa sottile la superficie descritta in rapporto
+	    alla sua lunghezza, finché infine si può parlare di una coincidenza tra A e B, con il
+	    che siamo di nuovo giunti alla linea attiva.
+	  </s>
+	  <s xml:id="ita-s6">
+	    (Questa sezione è ripresa alle pagine 143-146).
+	  </s>
+	</p>
+	</div>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>
