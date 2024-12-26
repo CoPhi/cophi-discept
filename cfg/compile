@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+rm -f parser.jar
+java -jar ./antlr-4.7.1-complete.jar  -Dlanguage=Java EuporiaLexer.g4
+java -jar ./antlr-4.7.1-complete.jar  -Dlanguage=Java Euporia.g4
+javac -cp ./antlr-4.7.1-complete.jar *.java
+jar -cf parser.jar *.class *.interp *.tokens
+rm -f *~
+rm -f *.class
+rm -f *.java
+rm -f *.tokens
+rm -f *.interp
+rm -f *.js

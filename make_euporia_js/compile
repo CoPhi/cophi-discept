@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+rm -rf build
+mkdir build
+cd build
+mkdir temp
+cp ../lib/antlr-4.7.1-complete.jar temp
+cp -a ../lib/node_modules temp
+cp ../lib/DomVisitor.js temp
+cp ../lib/index.js temp
+cp ../src/EuporiaLexer.g4 temp
+cp ../src/Euporia.g4 temp
+java -jar temp/antlr-4.7.1-complete.jar -Dlanguage=JavaScript temp/EuporiaLexer.g4
+java -jar temp/antlr-4.7.1-complete.jar -visitor -Dlanguage=JavaScript temp/Euporia.g4
+browserify temp/index.js --standalone euporia -o euporia.js
+rm -rf temp
