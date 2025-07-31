@@ -1,11 +1,11 @@
-parser grammar Euporia;
+grammar Euporia;
 options { tokenVocab=EuporiaLexer; }
 
-document: page+; 
+start: page+; 
 
-page: facsimile (numbZone| mainZone | mrgTextZoneIn | mrgTextZoneOut | mrgTextZoneUp | mrgTextZoneLow | graphZoneFig | graphZoneOrnam | musicZone)*; 
+page: facsimile (numbZone| mainZone | mrgTextZoneIn | mrgTextZoneOut | mrgTextZoneUp | mrgTextZoneLow | graphZoneFig | graphZoneOrnam | musicZone)*;
 
-facsimile: FAC num RBRAK NL+; 
+facsimile: FAC num RBRAK NL+;
 numbZone: LBRAK LBRAK (num|textSeq|operation) RBRAK RBRAK NL+; //NumberingZone [[NN]]
 mainZone: (sectionHeading | openPar| line | placeholder | reference | expl)+;
 
@@ -24,7 +24,7 @@ graphZoneOrnam: OPEN_ORNAM ornamId ZONE_CLOSE NL*; //GraphicZone:ornamentation [
 musicZone: OPEN_MUSIC musicId ZONE_CLOSE NL*; //MusicZone [MUSIC: ID (...)]
 
 line: (textSeq|num|operation| underlined)+ NL*;
-underlined: UNDERSCORE (textSeq|num|operation)+ UNDERSCORE;  
+underlined: UNDERSCORE (textSeq|num|operation)+ UNDERSCORE;
 pencilUnderlined: EMARK UNDERSCORE (textSeq|num|operation)+ UNDERSCORE;
 
 textSeq: (seg | punct)+;
@@ -34,9 +34,9 @@ figId: NUM+;
 ornamId: NUM+;
 musicId: NUM+;
 seg: (ALPHASEQ | NUM) DASH? | (prefix operation)|(operation suffix)|(prefix operation suffix)|(operation infix operation);
-prefix: (ALPHASEQ|NUM) DASH? CARET; 
-suffix: CARET (ALPHASEQ|NUM) DASH?; 
-infix:  CARET (ALPHASEQ|NUM) DASH? CARET; 
+prefix: (ALPHASEQ|NUM) DASH? CARET;
+suffix: CARET (ALPHASEQ|NUM) DASH?;
+infix:  CARET (ALPHASEQ|NUM) DASH? CARET;
 punct: (DOT|DOTS|COMMA|COLON|SCOLON|EMARK|QMARK|SLASH|LPAR|RPAR|QUOTE_MARK|LOW_QUOTE_MARK|EQ);
 
 operation: (substitution|pencil|addition|pencilAddition|subspencilAddition|deletion|pencilDeletion|subspencilDeletion|phiAdd|phiDel|phiSub);
@@ -62,5 +62,3 @@ phiDelete: OPEN_PHI_DEL textSeq;
 phiReplace: DOUBLESLASH textSeq DOUBLESLASH;
 phiDel: (OPEN_PHI_DEL textSeq DOUBLESLASH);
 phiAdd: (OPEN_PHI_ADD textSeq DOUBLESLASH);
-
-
