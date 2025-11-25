@@ -1,0 +1,135 @@
+{
+  "categories": {
+    "ZONES": [
+      {
+        "name": "FAC",
+        "label": "fac",
+        "symbol": "[fac"
+      },
+      {
+        "name": "NUMB_ZONE",
+        "label": "numb zone",
+        "symbol": "[["
+      },
+      {
+        "name": "MARGIN_IN",
+        "label": "margin in",
+        "symbol": "[MARGIN-IN"
+      },
+      {
+        "name": "MARGIN_OUT",
+        "label": "margin out",
+        "symbol": "[MARGIN-OUT"
+      },
+      {
+        "name": "MARGIN_UP",
+        "label": "margin up",
+        "symbol": "[MARGIN-UP"
+      },
+      {
+        "name": "MARGIN_LOW",
+        "label": "margin low",
+        "symbol": "[MARGIN-LOW"
+      },
+      {
+        "name": "OPEN_FIG",
+        "label": "open fig",
+        "symbol": "[FIGURE("
+      },
+      {
+        "name": "OPEN_PARAGRAPHISM",
+        "label": "open paragraphism",
+        "symbol": "[PARAGRAPHISM ("
+      },
+      {
+        "name": "OPEN_MUSIC",
+        "label": "open music",
+        "symbol": "[MUSIC ("
+      },
+      {
+        "name": "ZONE_CLOSE",
+        "label": "zone close",
+        "symbol": ")]"
+      }
+    ],
+    "OPERATIONS": [
+      {
+        "name": "OPEN_PENCIL",
+        "label": "open pencil",
+        "symbol": "!{"
+      },
+      {
+        "name": "OPEN_ADDITION",
+        "label": "open addition",
+        "symbol": "+{"
+      },
+      {
+        "name": "OPEN_PENCIL_ADDITION",
+        "label": "open pencil addition",
+        "symbol": "+!{"
+      },
+      {
+        "name": "OPEN_SUCCESSIVE_PENCIL_ADDITION",
+        "label": "open successive pencil addition",
+        "symbol": "+!s{"
+      },
+      {
+        "name": "OPEN_DELETION",
+        "label": "open deletion",
+        "symbol": "–{"
+      },
+      {
+        "name": "OPEN_PENCIL_DELETION",
+        "label": "open pencil deletion",
+        "symbol": "–!{"
+      },
+      {
+        "name": "OPEN_SUCCESSIVE_PENCIL_DELETION",
+        "label": "open successive pencil deletion",
+        "symbol": "–!s{"
+      },
+      {
+        "name": "OPEN_EXPLICATION",
+        "label": "open explication",
+        "symbol": "||*expl"
+      },
+      {
+        "name": "OPEN_REFERENCE",
+        "label": "open reference",
+        "symbol": "||*ref"
+      },
+      {
+        "name": "INTERPRETATION",
+        "label": "placeholder",
+        "symbol": "||"
+      },
+      {
+        "name": "OPEN_PHI_ADD",
+        "label": "open phi add",
+        "symbol": "+/"
+      },
+      {
+        "name": "OPEN_PHI_DEL",
+        "label": "open phi del",
+        "symbol": "–/"
+      },
+      {
+        "name": "NEW_PARAGRAPH",
+        "label": "new paragraph",
+        "symbol": "¶"
+      }
+    ],
+    "APPARATO_FIGURE": [
+      {
+        "name": "APPARATO_FIGURE_START",
+        "label": "apparato figure start",
+        "symbol": "=====\\n"
+      },
+      {
+        "name": "APPARATO_FIGURE_END",
+        "label": "apparato figure end",
+        "symbol": "====="
+      }
+    ]
+  }
+}
